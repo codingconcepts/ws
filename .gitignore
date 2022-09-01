@@ -1,2 +1,7 @@
-ws
-ws.drawf
+# Ignore executable files (files without extensions on macos and linux).
+*
+!*/
+!*.*
+
+# Crystal-specific files.
+*.dwarf
